@@ -22,7 +22,7 @@ class Artist
     song.artist = self
   end
 
-  def self.song_count
+  def song_count
     song_array = self.songs.collect {|name| song.name}
     song_array.count
   end
