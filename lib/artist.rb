@@ -23,10 +23,8 @@ class Artist
   end
 
   def self.song_count
-    self.songs.collect do |song|
-      self.song
-    end
-    
+    self.songs.count
+
   end
 
 end
